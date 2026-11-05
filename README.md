@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/pxlarized2/flick/releases/latest/download/Flick-standalone.exe"><b>Download for Windows</b></a>
+  <a href="https://github.com/fentdevelops/flick/releases/latest/download/Flick-standalone.exe"><b>Download for Windows</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/pxlarized2/flick/releases/latest">All downloads</a>
+  <a href="https://github.com/fentdevelops/flick/releases/latest">All downloads</a>
 </p>
 
 <p align="center">
@@ -70,8 +70,8 @@ Requires Windows 10 version 2004 or newer, or Windows 11.
 
 | File | Size | Use it if |
 |---|---|---|
-| [Flick-standalone.exe](https://github.com/pxlarized2/flick/releases/latest/download/Flick-standalone.exe) | 59 MB | You just want it to run. Nothing else to install. |
-| [Flick.exe](https://github.com/pxlarized2/flick/releases/latest/download/Flick.exe) | 2 MB | You have the free [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0), or don't mind installing it. |
+| [Flick-standalone.exe](https://github.com/fentdevelops/flick/releases/latest/download/Flick-standalone.exe) | 59 MB | You just want it to run. Nothing else to install. |
+| [Flick.exe](https://github.com/fentdevelops/flick/releases/latest/download/Flick.exe) | 2 MB | You have the free [.NET 10 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/10.0), or don't mind installing it. |
 
 There's no installer: download it and double-click it. The app isn't code-signed yet, so Windows may show a "Windows protected your PC" warning. Choose **More info**, then **Run anyway**.
 

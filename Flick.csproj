@@ -21,8 +21,8 @@
     <Version>1.0.0</Version>
     <Product>Flick</Product>
     <Description>Quick screen clips and screenshots, copied to your clipboard.</Description>
-    <Authors>pxlarized2</Authors>
-    <Copyright>Copyright (c) 2026 pxlarized2</Copyright>
+    <Authors>fentdevelops</Authors>
+    <Copyright>Copyright (c) 2026 fentdevelops</Copyright>
     <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
     <DefaultItemExcludes>$(DefaultItemExcludes);dist\**;tools\**</DefaultItemExcludes>
   </PropertyGroup>
