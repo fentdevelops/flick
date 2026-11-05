@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <RootNamespace>Flick</RootNamespace>
+    <AssemblyName>Flick</AssemblyName>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <TieredPGO>false</TieredPGO>
+    <TieredCompilationQuickJitForLoops>true</TieredCompilationQuickJitForLoops>
+    <ServerGarbageCollection>false</ServerGarbageCollection>
+    <ConcurrentGarbageCollection>false</ConcurrentGarbageCollection>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>assets\flick.ico</ApplicationIcon>
+    <Version>1.0.0</Version>
+    <Product>Flick</Product>
+    <Description>Quick screen clips and screenshots, copied to your clipboard.</Description>
+    <Authors>pxlarized2</Authors>
+    <Copyright>Copyright (c) 2026 pxlarized2</Copyright>
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+    <DefaultItemExcludes>$(DefaultItemExcludes);dist\**;tools\**</DefaultItemExcludes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Vortice.Direct3D11" Version="3.*" />
+    <PackageReference Include="Vortice.MediaFoundation" Version="3.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\flick.ico" />
+    <RuntimeHostConfigurationOption Include="System.GC.ConserveMemory" Value="7" />
+    <RuntimeHostConfigurationOption Include="System.GC.RetainVM" Value="false" />
+  </ItemGroup>
+
+</Project>
